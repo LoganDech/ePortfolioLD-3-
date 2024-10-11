@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    color: #333; /
+ 
+}
+
+
+header {
+    background-color: #000; 
+    color: #fff; 
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ff0000; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fff; 
+}
+
+
+section {
+    padding: 2em;
+    background-color: #fff; 
+    color: #333;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    color: #d50f0f; 
+}
+
+h3{
+    color: #000;
+}
+
+h4 {
+    color: #d50f0f;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #000; 
+    color: #fff; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fishing{
+    margin-top: 100px;
+    height: auto;
+    width: auto;
+}
+
+.home{
+    text-align: center;
+    margin-top: 90;
+    
+}
+
+.workexp {
+    padding: 2em; /* Consistent padding */
+    background-color: #fff; /* White background like other sections */
+    color: #333; /* Dark gray text for consistency */
+    margin: 20px auto; /* Consistent margin */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1)
+
+
+
+    }
+
+.roofwork {
+    rotate: 90deg;
+    margin-left: 30;
+    height: 180;
+    width: 180;
+    margin-top: 10;
+}
+
+.babypic{
+    border: solid #000000;
+    border-width: 8;
+    height: 150;
+    margin-top: 8;
+}
